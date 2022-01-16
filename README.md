@@ -1,1 +1,1 @@
-# ChessForTwo Yes
+# ChessForTwo
