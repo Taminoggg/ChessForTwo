@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chessfortwo.WaitForPlayersScreenController">
+   <children>
+      <ImageView fitHeight="604.0" fitWidth="656.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-204.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../../../../Tamino/Programmieren/Drittee_Klasse/Chess_Board.svg.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="txtPlayerOne" layoutX="74.0" layoutY="287.0" text="Temp1" />
+      <Label fx:id="txtPlayerTwo" layoutX="74.0" layoutY="319.0" text="Temp2" />
+      <Label fx:id="txtStartingInfo" layoutX="208.0" layoutY="191.0" text="Waiting for another Player to enter" />
+      <Label fx:id="txtTimeUntilStart" layoutX="286.0" layoutY="235.0" />
+      <Button layoutX="260.0" layoutY="148.0" mnemonicParsing="false" onAction="#btnNextSite" text="Temp" />
+   </children>
+</AnchorPane>
